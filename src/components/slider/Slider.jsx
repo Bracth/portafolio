@@ -9,7 +9,7 @@ const Slider = () => {
             <div className="carousel-title">
                 <h2>My Projects</h2>
             </div> 
-                <Carousel  infiniteLoop={true}>
+                <Carousel  infiniteLoop={true} showStatus={false}>
 
                 <div className="slide-container">
                     <img src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg" alt="Project"/>
