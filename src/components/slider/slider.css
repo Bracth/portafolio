@@ -7,7 +7,7 @@
 }
 
 .carousel-title {
-  color: white;
+  color: #1672f5;
   width: 40%;
   text-align: center;
   font-size: 30px;
@@ -20,6 +20,16 @@
   overflow: hidden;
   position: relative;
   cursor: pointer;
+}
+
+.slide-container > p {
+  display: flex;
+}
+
+.slide-container > p > a {
+  text-decoration: none;
+  color: #1672f5;
+  margin: auto;
 }
 
 .slide-container > img {

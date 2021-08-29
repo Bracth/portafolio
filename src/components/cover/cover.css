@@ -22,10 +22,34 @@
   font-size: 100px;
 }
 
+.cover-container > h1 > span {
+  color: #1672f5;
+}
+
 .cover-container > p {
   margin-top: 8px;
   color: white;
   font-size: 32px;
+  width: 22ch;
+  animation: typing 2s steps(22), blink 2s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cover-container > p > span {
+  color: #1672f5;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 @media screen and (max-width: 960px) {

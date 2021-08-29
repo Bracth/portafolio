@@ -1,12 +1,12 @@
 import "./cover.css";
-import coverVideo from "../../media/coverVideo.mp4";
+import coverVideo from "../../media/video.mp4";
 
 const cover = () => {
     return (
         <div className="cover-container">
             <video className="video" src={coverVideo} autoPlay loop muted></video>
-            <h1>Bryan Florencio</h1>
-            <p>Developer | Front-end</p>
+            <h1><span>B</span>ryan <span>F</span>lorencio</h1>
+            <p>Front-end <span>|</span> Developer</p>
         </div>
     )
 }
