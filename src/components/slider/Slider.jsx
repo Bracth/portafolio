@@ -25,48 +25,48 @@ const HandleClick = () => {
                 <div className="slide-container"> 
                     <img  src={yelpcampImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://guarded-stream-53223.herokuapp.com/">To the Project </a>
-                    <a href="https://github.com/Bracth/yelpcamp">To GitHub</a>
+                    <a href="https://guarded-stream-53223.herokuapp.com/" rel="noreferrer" target="_blank"> To the Project </a>
+                    <a href="https://github.com/Bracth/yelpcamp" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
 
                  <div className="slide-container"> 
                     <img  src={moviesImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://bracth.github.io/movies/">To the Project </a>
-                    <a href="https://github.com/Bracth/movies">To GitHub</a>
+                    <a href="https://bracth.github.io/movies/" rel="noreferrer" target="_blank">To the Project </a>
+                    <a href="https://github.com/Bracth/movies" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
 
                     <div className="slide-container"> 
                     <img  src={todoImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://bracth.github.io/todo/">To the Project </a>
-                    <a href="https://github.com/Bracth/todo/tree/master">To GitHub</a>
+                    <a href="https://bracth.github.io/todo/" rel="noreferrer" target="_blank">To the Project </a>
+                    <a href="https://github.com/Bracth/todo/tree/master" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
 
                     <div className="slide-container"> 
                     <img  src={portafolioImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://bracth.github.io/portafolioproject/">To the Project </a>
-                    <a href="https://github.com/Bracth/portafolioproject">To GitHub</a>
+                    <a href="https://bracth.github.io/portafolioproject/" rel="noreferrer" target="_blank">To the Project </a>
+                    <a href="https://github.com/Bracth/portafolioproject" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
 
                     <div className="slide-container"> 
                     <img  src={tipcalculatorImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://bracth.github.io/tipcalculator/">To the Project </a>
-                    <a href="https://github.com/Bracth/tipcalculator">To GitHub</a>
+                    <a href="https://bracth.github.io/tipcalculator/" rel="noreferrer" target="_blank">To the Project </a>
+                    <a href="https://github.com/Bracth/tipcalculator" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
 
                     <div className="slide-container"> 
                     <img  src={carscardImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://bracth.github.io/carscards/">To the Project </a>
-                    <a href="https://github.com/Bracth/carscards">To GitHub</a>
+                    <a href="https://bracth.github.io/carscards/" rel="noreferrer" target="_blank">To the Project </a>
+                    <a href="https://github.com/Bracth/carscards" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
 

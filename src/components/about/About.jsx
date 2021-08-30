@@ -1,14 +1,16 @@
 import "./about.css";
+import foto from "../../media/code.jpg";
 
 const About = () => {
     return (
         <div className="about-container">
             <div className="about-desc">
                 <h3>let me tell you something about me!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloremque repellat omnis aliquam, voluptatem tempora odio officiis quibusdam vitae doloribus a libero. Eum minus fuga commodi et soluta? Voluptatibus, labore.</p>
+                <p>I am a very passionate person, I love to challenge myself to improve in every aspect of my life.
+                 I learned how to code from myself and I really love it. Now, I look for a way to show the world my passion and help others.</p>
             </div>
             <div className="about-img">
-                <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="about" />
+                <img src={foto} alt="about" />
             </div>
         </div>
     )
