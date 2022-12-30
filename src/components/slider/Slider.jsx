@@ -8,6 +8,7 @@ import todoImg from "../../media/todo.png";
 import portafolioImg from "../../media/portafolio.png";
 import tipcalculatorImg from "../../media/tipcalculator.png";
 import carscardImg from "../../media/carscard.png";
+import netfloxImg from "../../media/netflox.png"
 
 const Slider = () => {
 
@@ -23,9 +24,17 @@ const HandleClick = () => {
                 <Carousel showThumbs={false}  infiniteLoop={true} showStatus={false}>
 
                 <div className="slide-container"> 
+                    <img  src={netfloxImg} alt="Project"/>
+                    <p  className="legend">
+                    <a href="https://netflox-delta.vercel.app/" rel="noreferrer" target="_blank"> To the Project </a>
+                    <a href="https://github.com/Bracth/netflox" rel="noreferrer" target="_blank">To GitHub</a>
+                    </p>
+                </div>
+
+                <div className="slide-container"> 
                     <img  src={yelpcampImg} alt="Project"/>
                     <p  className="legend">
-                    <a href="https://guarded-stream-53223.herokuapp.com/" rel="noreferrer" target="_blank"> To the Project </a>
+                    <a href="https://y-qk13.onrender.com/" rel="noreferrer" target="_blank"> To the Project </a>
                     <a href="https://github.com/Bracth/yelpcamp" rel="noreferrer" target="_blank">To GitHub</a>
                     </p>
                 </div>
